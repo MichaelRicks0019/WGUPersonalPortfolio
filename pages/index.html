@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <title>Portfolio</title>
+  <link rel="stylesheet" href="../css/styles.css"/>
+  <script src="../javascript/index.js" defer></script>
+</head>
+
+<body class="wrapper-body">
+
+  <!-- Header / Navigation -->
+  <header>
+    <div class="flex-container-header">
+      <picture>
+        <img src="../images/personalPortfolioSelfie.jpg" alt="Michael Ricks" class="personalPortfolioSelfie">
+      </picture>
+        <h1>Michael Ricks Portfolio</h1>
+      <nav>
+        <ul>
+          <li><a href="index.html">Resume</a></li>
+          <li><a href="cover-letter.html">Cover Letter</a></li>
+          <li><a href="career-goals.html">Career Goals</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Main Content -->
+  <main class="wrapper-main">
+    <!-- Resume -->
+    <h1 class="resume-header">Resume</h1>
+    <!-- Resume Download -->
+    <div class="file-download-button">
+      <a href="../pdfFiles/resume.pdf" download target="_blank" onclick="showMesssage()">Download Resume</a>
+    </div>
+    <div id="resume">
+      <section id="resume-contact-info">
+        <h2>Michael Ricks</h2>
+        <hr>
+        <p>Pleasant View, Utah &#124; (385) 492-8939 &#124; <a href="mailto:michaelricks0019@gmail.com" target="_blank">michaelricks0019@gmail.com</a> <br> LinkedIn: <a href="https://www.linkedin.com/in/michael-ricks-6ab335274/" target="_blank">https://www.linkedin.com/in/michael-ricks-6ab335274/</a></p>
+        <hr>
+      </section>
+      <!-- Resume Summary -->
+      <section id="resume-summary">
+        <h2>Summary</h2>
+        <p>1st year undergraduate student seeking work experience to further knowledge in software development and <em>computer science.</em>  Desire to utilize skills in real scenarios and further the company's objectives. Eager to learn new technologies.</p>
+      </section>
+      <hr>
+      <!-- Skills and Qualifications -->
+      <section id="skills">
+        <h2>Skills &amp; Qualifications</h2>
+        <table class="skills-table">
+          <caption>Skills</caption>
+          <tr>
+            <td>HTML</td>
+            <td>CSS</td>
+            <td>JavaScript</td>
+            <td>OOP (C#)</td>
+          </tr>
+          <tr>
+            <td>Database Design</td>
+            <td>GitHub / Version Control</td>
+            <td>Agile Methodologies</td>
+            <td>Network Foundations</td>
+          </tr>
+          <tr>
+            <td>Problem Solving</td>
+            <td>Communication</td>
+            <td>Teamwork</td>
+            <td>Leadership</td>
+          </tr>
+        </table>
+      </section>
+      <hr>
+      <!-- Education -->
+      <section id="education">
+        <h2>Education</h2>
+        <article id="education-wgu">
+          <p><strong>Western Governors University</strong>, Salt Lake City, UT <span style="float:right">January 2025 - February 2028</span> <br> <em>Bachelor of Science in Computer Science</em></p>
+        </article>
+        <article id="education-otech">
+          <p><strong>Ogden-Weber Technical College</strong>, Ogden, UT <span style="float:right">2021 - 2023</span> <br> <em>Certificate in Software Technology</em></p>
+        </article>
+        <article id="education-highschool">
+          <p><strong>Davinci Academy of Science and the Arts</strong>, Ogden, UT <span style="float:right">2018</span> <br> <em>High School Diploma</em></p>
+        </article>
+      </section>
+      <hr>
+      <!-- Work Experience -->
+      <section id="work">
+        <h2>Work Experience</h2>
+        <article id="work-amazon"> 
+          <p><strong>Amazon</strong>, Ogden, UT <span style="float:right">November 2025 - Present</span> <br> <em>Delivery Driver</em></p>
+          <ul>
+            <li>Efficiently and safely deliver packages to customers in a timely manner</li>
+            <li>Manage customer inquiries and resolve issues promptly</li>
+            <li>Provide excellent customer service to enhance customer satisfaction</li>
+          </ul>
+        </article>
+        <article id="work-mvtransportation">
+          <p><strong>MV Transportation</strong>, Ogden, UT <span style="float:right">August 2022 - October 2025</span> <br> <em>Paratransit Driver</em></p>
+          <ul>
+            <li>Operate a class C company vehicle to safely transport persons with disabilities to the desired location in a timely manner</li>
+            <li>Assist passengers with boarding and disembarking, ensuring their comfort and safety</li>
+            <li>Stay on schedule for bus routes and effectively communicate with UTA of any delays or issues</li>
+          </ul>
+        </article>
+        <article id="work-homedepot">
+          <p><strong>Home Depot</strong>, Ogden, UT <span style="float:right">January 2021 - August 2022</span> <br> <em>Flooring Sales Representative</em></p>
+          <ul>
+            <li>Cut blinds and carpets to specific proportions for customers</li>
+            <li>Assist customers with selecting appropriate floor types and products in-store and online</li>
+            <li>Maintained an in-depth understanding of all available brands and types of flooring available to customers</li>
+          </ul>
+        </article>
+      </section>
+    </div>
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2026 Michael Ricks</p>
+    <span id="float-right">
+      <div>
+        <button onclick="showTodayDate()">Show Today's Date</button>
+        <p id="todays-date"></p>
+      </div>
+    </span>
+  </footer>
+</body>
+</html>

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <title>Portfolio</title>
+  <link rel="stylesheet" href="../css/styles.css"/>
+  <script src="../javascript/index.js" defer></script>
+</head>
+
+<body class="wrapper-body">
+
+  <!-- Header / Navigation -->
+  <header>
+    <div class="flex-container-header">
+      <picture>
+        <source media="(min-width: 900px)" srcset="../images/personalPortfolioSelfie.jpg">
+        <source media="(min-width: 600px)" srcset="../images/personalPortfolioSelfie.jpg">
+        <img src="../images/personalPortfolioSelfie.jpg" alt="Michael Ricks" class="personalPortfolioSelfie">
+      </picture>
+        <h1>Michael Ricks Portfolio</h1>
+      <nav>
+        <ul>
+          <li><a href="index.html">Resume</a></li>
+          <li><a href="cover-letter.html">Cover Letter</a></li>
+          <li><a href="career-goals.html">Career Goals</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Main Content -->
+  <main class="wrapper-main wrapper-paper-size">
+    <div class="cover-letter">
+        <section class="cover-letter-header">
+            <h1>Cover Letter</h1>
+            <div class="file-download-button">
+                <a href="../pdfFiles/cover-letter.pdf" download target="_blank" onclick="showMesssage_coverLetter()">Download Cover Letter</a>
+            </div>
+        </section>
+        <section class="cover-letter-content">
+            <h2>Michael Ricks</h2>
+            <section id="cover-letter-contact">
+                <p>Pleasant View, Utah <br>(385) 492-8939 <br><a href="mailto:michaelricks0019@gmail.com" target="_blank">michaelricks0019@gmail.com</a></p>
+            </section>
+            <br>
+            <p>Dear Hiring Manager,</p>
+            <br>
+            <p>I am writing to apply for the Associate Software Support Specialist position with Tyler Technologies. I am a current 1st year student at Western Governors University studying for a Bachelor's in Computer Science, aiming to work in the Software Development / Web Development field. I graduated from the Ogden-Weber Technical College with a certification in Software Technology, which gave me insight into software development.</p>
+            <p>I know my gained skills and knowledge of programming and software will lend aid to this company's clients that I will be working with. I enjoy working with and helping clients to resolve issues they have and find satisfaction in my work. I always prioritize customer service and building a good reputation for my company.</p>
+            <p>My experience debugging code will allow me to efficiently find and resolve software issues by properly escalating the issue to the appropriate person if needed. My attention to detail will let me to properly document any issues for review and later use to be referenced for future issues.</p>
+            <p>This opportunity would be an amazing chance to apply my skills and learn from those around me. I'm always seeking to improve and excel in any job I'm given.</p>
+            <p>Thank you for your time and consideration. I look forward to hearing from you.</p>
+            <p>Sincerely, Michael Ricks.</p>
+        </section>
+    </div>
+    <hr>
+    <article id="projects">
+      <h2><mark>Projects I want to do!</mark></h2>
+        <ul>
+          <li><strong>Webpage for my <em>wife's</em> projects and crafts</strong></li>
+          <li><strong>Page layouts for businesses (for practice and to try different designs)</strong></li>
+          <li><strong>Personal Portfolio Website for employers</strong></li>
+        </ul>
+    </article>
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2026 Michael Ricks</p>
+    <span id="float-right">
+      <button onclick="showTodayDate()">Show Today's Date</button>
+      <p id="todays-date"></p>
+    </span>
+  </footer>
+</body>
+</html>

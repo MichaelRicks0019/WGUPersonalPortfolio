@@ -1,0 +1,266 @@
+html {
+    background: linear-gradient(white, rgb(235, 224, 249));
+}
+
+body * {
+    font-family: Arial, Helvetica, sans-serif ;
+}
+
+body {
+    margin: 20px;
+    width: auto;
+}
+
+main h2 { 
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.wrapper-body {
+    max-width: 90vw;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+.wrapper-main {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 2rem;
+    background-color: #ffffff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+nav {
+    margin: auto 10px 10px auto;
+}
+
+nav ul {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+nav li {
+    display: inline;
+    text-decoration: none;
+}
+
+nav a {
+    margin: 15px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-family: "Inter", "Segoe UI", Helvetica, Arial, sans-serif;
+    font-size: 1.2rem;
+}
+
+nav a:hover {
+    text-decoration: underline;
+    color: red;
+}
+
+picture {
+    display: inline-block;
+    max-width: 100%;
+    height: auto;
+}
+
+footer {
+    margin-top: 50px;
+    padding: 20px 0;
+    border-top: 1px solid #ccc;
+}
+
+footer p {
+    text-align: center;
+    font-size: 0.9rem;
+    display: inline-block;
+}
+
+.personalPortfolioSelfie {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+.flex-container-header {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    margin-bottom: 90px;
+}
+
+.flex-container-header > h1 {
+    align-self: center;
+}
+
+.resume-header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.skills-table {
+    width: 80%;
+    margin: 8px auto 15px auto;
+}
+
+.skills-table th, .skills-table td {
+    border: 1px solid rgb(180, 176, 176);
+    padding: 8px;
+    text-align: center;
+}
+
+#resume-contact-info a {
+    text-decoration: none;
+    color: black;
+}
+
+#resume-contact-info a:hover {
+    text-decoration: underline;
+    color: red;
+}
+
+#resume-summary p {
+    width: 80%;
+    margin: 30px 100px;
+    text-align: center;
+}
+
+#todays-date {
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+#float-right {
+    float: right;
+    text-align: right;
+}
+
+.file-download-button a {
+    display: inline-block;
+    padding: 10px 15px;
+    background-color: rgb(91, 91, 91);
+    text-decoration: none;
+    color: white;
+    border-radius: 5px;
+}
+
+.file-download-button a:hover {
+    background-color: black;
+    box-shadow: 5px 5px 5px rgb(91, 91, 91);
+}
+
+/* cover-letter styles */
+
+.cover-letter {
+    margin-bottom: 40px;
+}
+
+.cover-letter-header h1 {
+    text-align: center;
+    margin-bottom: 30px;
+    width: 90%;
+}
+
+.cover-letter-content {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.wrapper-paper-size {
+    min-height: 11in;
+}
+
+#projects {
+    margin-top: 40px;
+}
+
+#projects ul {
+    list-style-type: square;
+}
+
+/* Carrer Goeals styles */
+
+.wrapper-carreer-goals {
+    background-color: #ffffff;
+    margin: 0 auto;
+    width: 80vw;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 1200px;
+    padding: 3rem;
+}
+
+#contact form{
+    margin-top: 50px;
+    max-width: fit-content;
+    margin: 0 auto;
+}
+
+#contact label{
+    width: 125px;
+    display: inline-block;
+    text-align: right;
+    margin-right: 8px;
+}
+
+#contact input[type=text], #contact input[type=email], #contact input[type=tel], #contact select, #contact textarea {
+    box-sizing: border-box;
+    width: 250px;
+    padding: 8px;
+    border: 1px solid #ccc;
+}
+
+#contact textarea {
+    vertical-align: top;
+}
+
+#contact fieldset div {
+    cursor: pointer;
+    display: block;
+    text-align: left;
+    margin-left: 10px;
+}
+
+#contact div input[type=radio] + label{
+    text-align: left;
+
+}
+#contact button {
+    width: 150px;
+    padding: 10px 20px;
+    background-color: #09f;
+    color: white;
+    margin: 10px 0 0 133px;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#contact button:hover {
+    background-color: #007acc;
+}
+
+#media {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-top: 20px;
+    border: 2px solid rgb(0, 0, 0);
+    padding: 10px;
+    width: fit-content;
+    background-color: #eff9ff;
+    text-align: center;
+    align-items: center;
+    margin-left: 20px;
+    border-radius: 30px;
+}
+
+#contact h1 {
+    text-align: center;
+}
+
+.wrapper-carreer-goals section {
+    margin-bottom: 60px;
+}
+
+#about-me * {
+    width: 80%;
+}

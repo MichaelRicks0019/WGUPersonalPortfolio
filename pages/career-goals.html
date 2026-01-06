@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <title>Portfolio</title>
+  <link rel="stylesheet" href="../css/styles.css"/>
+  <script src="../javascript/index.js" defer></script>
+</head>
+
+<body class="wrapper-body">
+
+  <!-- Header / Navigation -->
+  <header>
+    <div class="flex-container-header">
+      <picture>
+        <img src="../images/personalPortfolioSelfie.jpg" alt="Michael Ricks" class="personalPortfolioSelfie">
+      </picture>
+        <h1>Michael Ricks Portfolio</h1>
+      <nav>
+        <ul>
+          <li><a href="index.html">Resume</a></li>
+          <li><a href="cover-letter.html">Cover Letter</a></li>
+          <li><a href="career-goals.html"><span>Career Goals</span></a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Main Content -->
+  <main class="wrapper-main wrapper-carreer-goals">
+    <section id="career-goals">
+        <h1>Career Goals</h1>
+        <article>
+            <h2>Short-Term Goals</h2>
+            <ul>
+                <li>Complete my Bachelor's in Computer Science at WGU</li>
+                <li>In my <em>third and fourth</em> years of study apply for interships to gain practical experience</li>
+                <li>Build a personal portfolio to list projects and skills to employers and show what I've learned</li>
+                <li>Learn new languages and concepts on my own free time to enhance my general knowledge</li>
+            </ul>
+        </article>
+        <article>
+            <h2>Long-Term Goals</h2>
+            <ul>
+                <li>Work as a Software Developer for a respected company that encourages self growth and constant learning</li>
+                <li>Consistanly seek to grow in my field and not become complacent</li>
+                <li>Eventually become a Senior Software Developer or Lead Developer</li>
+                <li>Manage a heathly work life balance to prioritize my family and company properly</li>
+            </ul>
+        </article>
+    </section>
+    <section id="about-me">
+      <h1>About Me</h1>
+      <p>My name is Michael Ricks. I am a student at Western Governors University (WGU) persuing a bachelors in Computer Science. I am aspiring to become a Software Developer and use my skills to provide solutions for complex problems.</p>
+      <p>I started gaining my interest in programming by attending a local technical college in Ogden at the Ogden-Weber Technical College. This led me to continue my education at WGU.</p>
+      <p>In my free time I love spending time with family, biking, jogging, hiking, frisbee golf, and most outdoor activitis. I also have a nerdy side and enjoy fantasy and gaming</p>
+      <p>Please feel free to contact me if you have any questions or would simply like to chat!</p>
+    </section>
+    <section id="media">
+      <h3>About me</h3>
+      <video controls width="250">
+        <source src="../videos/career-goals.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+      <audio controls>
+        <source src="../audio/about-me.wav" type="audio/wav">
+        Your browser does not support the audio element.
+      </audio>
+    </section>
+    <hr>
+    <section id="contact">
+      <h1>Contact Me</h1>
+      <form action="https://wp.zybooks.com/form-viewer.php" method="POST" class="contact-form" target="_blank">
+        <p>
+          <label for="first">First Name:</label>
+          <input type="text" name="first" id="first" title="Enter First Name">
+        </p>
+        <p>
+          <label for="last">Last Name:</label>
+          <input type="text" name="last" id="last" title="Enter Last Name">
+        </p>
+        <p>
+          <label for="companyName">Company Name:</label>
+          <input type="text" name="companyName" id="companyName" title="Enter Company Name">
+        </p>
+        <p>
+          <label for="email">Email:</label>
+          <input type="email" name="email" id="email" title="Enter Email Address">
+        </p>
+        <p>
+          <label for="phone">Phone Number:</label>
+          <input type="tel" name="phone" id="phone" title="Enter Phone Number">
+        </p>
+        <p>
+          <label for="message">Message:</label>
+          <textarea name="message" id="message" rows="4" cols="50" placeholder="Message..."></textarea>
+        </p>
+        <p>
+          <fieldset>
+            <legend>Best Contact Time</legend>
+
+            <div>
+              <input type="radio" name="contact" value="A.M." id="contact-am">
+              <label for="contact-am">A.M.</label>
+            </div>
+
+            <div>
+              <input type="radio" name="contact" value="P.M." id="contact-pm">
+              <label for="contact-pm">P.M.</label>
+            </div>
+
+            <div>
+              <input type="radio" name="contact" value="anytime" id="contact-anytime">
+              <label for="contact-anytime">Anytime</label>
+            </div>
+          </fieldset>
+        </p>
+        <p>
+          <label for="contact">Preferred Contact Method:</label>
+          <select>
+            <option value="phone">Phone</option>
+            <option value="email">Email</option>
+            <option value="text">Text</option>
+          </select>
+        </p>
+        <p>
+          <button type="submit">Submit</button>
+        </p>
+      </form>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2026 Michael Ricks</p>
+    <span id="float-right">
+      <button onclick="showTodayDate()">Show Today's Date</button>
+      <p id="todays-date"></p>
+    </span>
+  </footer>
+</body>
+</html>
