@@ -1,6 +1,7 @@
 function showTodayDate() {
   const today = new Date().toLocaleDateString();
   document.getElementById("todays-date").textContent = "Today's Date: " + today;
+  console.log("Date is " + today);
 };
 
 function showMesssage() {

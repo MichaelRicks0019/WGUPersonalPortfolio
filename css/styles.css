@@ -2,7 +2,7 @@ html {
     background: linear-gradient(white, rgb(235, 224, 249));
 }
 
-body * {
+* {
     font-family: Arial, Helvetica, sans-serif ;
 }
 
